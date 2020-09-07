@@ -5,8 +5,7 @@ Building a Node js APIs using Node.js, Express, and Mongoose to handle multiple 
 
 # WriteUp
 
-I was able to clarify that the API will always respond the same way for each input. The temporal data is just there to provide multiple inputs.
-If we have called these apis many times, we can determine about the reputation of each APIs over time by looking over these data.
+I was able to get clarification that the API will always respond the same way for each input. The temporal data is just there to provide multiple inputs. If we have called these apis many times, we can determine about the reputation of each APIs over time by looking over these data.
 The "true" deductible, stop_loss, and oop_max could be as simple as getting the values that are in consensus.
 
 [
