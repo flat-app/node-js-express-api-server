@@ -36,7 +36,13 @@ Method 1:
 We can also use statistical analysis and identify the consensus "true" value by finding what is not the outlier for each category. If we can have a large sample size for our temporal data, let’s say more than 100+ data entries, then we can analyze these data and measure the consensus by means and standard deviation.  We can calculate the mean of each category, then we use the standard deviation, and if it is +3 or -3 standard deviation from the mean. Then we can know which data is outlier and which data is consistent, and therefore it has a good reputation.
 
 Method 2:
+
 We can also simply find the most frequent value inside each category. The most frequent values would be  the "true" value for "deductible", "stop_loss", and "oop_max".
+
+
+TODO:
+
+Write more unit testing with Mocha and chaiHttp. See the sample api.test.js inside test folder
 
 ## Features
 
