@@ -87,6 +87,7 @@ Testing:
 ## Project Structure
 
 ```
+```
 server.js           # Express app
 app\
  |--config\         # Environment variables and configuration related things
@@ -97,20 +98,10 @@ app\
 
 
 ```
-
-**User routes**:\
-`POST /api/insurance/` - call all the APIs request
-
-
-
-
 ## Feature implementation
 
-
-# Error Handling
-The app has a centralized error handling mechanism.
-
-Controllers should try to catch the errors and forward them to the error handling middleware (by calling `next(error)`). For convenience, you can also wrap the controller inside the catchAsync utility wrapper, which forwards the error.
+**API routes**:\
+`POST /api/insurance/` - call all the APIs request
 
 
 ```
